@@ -1,5 +1,18 @@
 # A Survey on Group Fairness in Federated Learning
 Collection of research papers and datasets analysed in the survey on group fairness in Federated Learning.
+Please cite as follows:
+
+```bibtex
+@misc{salazar2024surveygroupfairnessfederated,
+      title={A Survey on Group Fairness in Federated Learning: Challenges, Taxonomy of Solutions and Directions for Future Research}, 
+      author={Teresa Salazar and Helder Araújo and Alberto Cano and Pedro Henriques Abreu},
+      year={2024},
+      eprint={2410.03855},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2410.03855}, 
+}
+```
 
 ### Table 1: Summary of solutions on group fairness in federated learning
 - Location (LOC): L - local solutions, G - global solutions, H - hybrid solutions
