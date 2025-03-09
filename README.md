@@ -58,6 +58,7 @@ Collection of research papers and datasets analysed in the survey on group fairn
 | [Badar et al., 2024](https://ojs.aaai.org/index.php/AAAI/article/view/28971)                            | FairTrade    | trade-off between balanced accuracy and fairness; multi-objective optimization                                       | H    | HFL  | TAB      | UC+DIF                      | SB   |
 | [Su et al., 2024](https://ojs.aaai.org/index.php/AAAI/article/view/29430)                               | mFairFL      | group fairness and performance distribution fairness simultaneously; minimax constraint; gradient conflict detection | H    | HFL  | TAB      | PB+DIF UC+DIF CO+DIF        | SV   |
 | [Chen et al., 2024](https://www.sciencedirect.com/science/article/pii/S0167739X24003406)                | DFLT; PGFD   | local and global fairness; privacy constraints                                                                       | H    | HFL  | TAB      | UC+DIF CO+DIF               | SB   |
+| [Agrawal et al., 2024](https://dl.acm.org/doi/10.1609/aaai.v38i10.28950)                                | F^2PGNN      | personalized fair recommendation systems; graph neural networks                                                      | H    | HFL  | TAB      | PB+DIF                      | SB   |
 
 ### Table 2: Summary of datasets used on works on group fairness in federated learning
 | Dataset                                                                                         | Type | Area                 | Target                             | Size       |
@@ -78,13 +79,15 @@ Collection of research papers and datasets analysed in the survey on group fairn
 | [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)                                         | IMG  | Image Classification | tiny image classification          | 60 000     |
 | [Credit Card Default](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)   | TAB  | Financial            | default prediction                 | 30 000     |
 | [Law](https://eric.ed.gov/?id=ED469370)                                                         | TAB  | Educational          | passes the bar exam                | 20 798     |
+| [ML-1M](https://dl.acm.org/doi/10.1145/2827872)                                                 | TAB  | Entertainment        | movie rating                       | 1 000 209  |
 | [Drug](https://www.icpsr.umich.edu/web/ICPSR/studies/36536/versions/V1)                         | TAB  | Healthcare           | abuses volatile substance          | 1 885      |
 | [Heritage Health](https://kaggle.com/competitions/hhp)                                          | TAB  | Healthcare           | Charleson Index                    | 113 000    |
 | [Digits-five](https://arxiv.org/abs/1803.00830)                                                 | IMG  | Image Classification | digit recognition                  | 136 000    |
 | [dSprites](https://github.com/google-deepmind/dsprites-dataset)                                 | IMG  | Image Classification | shape                              | 737 280    |
 | [Crime](https://www.sciencedirect.com/science/article/abs/pii/S0377221701002648)                | TAB  | Criminology          | violent crimes                     | 1 994      |
 | [ADS](https://www.kaggle.com/datasets/groffo/ads16-dataset)                                     | TAB  | Advertisement        | is interested                      | 36 000     |
-| [ML-1M](https://dl.acm.org/doi/10.1145/2827872)                                                 | TAB  | Entertainment        | movie rating                       | 1 000 000  |
+| [ML-100K](https://dl.acm.org/doi/10.1145/2827872)                                               | TAB  | Entertainment        | movie rating                       | 1 000 000  |
+| [Amazon-Movies](https://aclanthology.org/D19-1018/)                                             | TAB  | Entertainment        | movie rating                       | 484 141    |
 | [ACSPublic-Coverage](https://paperswithcode.com/dataset/acs-pums)                               | TAB  | Financial            | covered by public health insurance | 1 127 446  |
 | [Synthea](https://pubmed.ncbi.nlm.nih.gov/29025144/)                                            | TAB  | Healthcare           | mortality prediction               | 1 000 000  |
 | [MIMIC-III](https://www.nature.com/articles/sdata201635)                                        | TAB  | Healthcare           | mortality prediction               | 53 423     |
