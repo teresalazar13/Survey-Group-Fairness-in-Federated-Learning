@@ -1,16 +1,22 @@
 # A Survey on Group Fairness in Federated Learning
 Collection of research papers and datasets analysed in the survey on group fairness in Federated Learning.
+
+Published in *Artificial Intelligence Review* (Springer), 59(2):81, 2026. DOI: [10.1007/s10462-025-11475-5](https://doi.org/10.1007/s10462-025-11475-5)
+
 Please cite as follows:
 
 ```bibtex
-@misc{salazar2024surveygroupfairnessfederated,
-      title={A Survey on Group Fairness in Federated Learning: Challenges, Taxonomy of Solutions and Directions for Future Research}, 
-      author={Teresa Salazar and Helder Araújo and Alberto Cano and Pedro Henriques Abreu},
-      year={2024},
-      eprint={2410.03855},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.03855}, 
+@article{salazar2026survey,
+    title     = {A survey on group fairness in federated learning: challenges, taxonomy of solutions and directions for future research},
+    author    = {Salazar, Teresa and Araújo, Helder and Cano, Alberto and Abreu, Pedro Henriques},
+    journal   = {Artificial Intelligence Review},
+    volume    = {59},
+    number    = {2},
+    pages     = {81},
+    year      = {2026},
+    publisher = {Springer},
+    doi       = {10.1007/s10462-025-11475-5},
+    url       = {https://doi.org/10.1007/s10462-025-11475-5}
 }
 ```
 
@@ -34,28 +40,28 @@ Please cite as follows:
 | [Rodríguez-Gálvez et al., 2021](https://arxiv.org/abs/2109.08604)                                       | FPFL         | differential multipliers; fairness constraints                                                                       | H    | HFL  | TAB IMG  | PB+DIF UC+DIF CO+DIF CD+DIF | SV   |
 | [Kanaparthy et al., 2022](https://dl.acm.org/doi/10.1145/3493700.3493750)                               | -            | heuristics for aggregation techniques                                                                                | G    | HFL  | IMG      | PB+DIF CO+DIF               | SV   |
 | [Mehrabi et al., 2022](https://arxiv.org/abs/2201.09917)                                                | FedVal       | aggregation technique; identifying uncooperative clients                                                             | G    | HFL  | TAB      | UC+DIF CO+DIF               | SB   |
-| [Zhang et al., 2022](https://arxiv.org/abs/2111.04986)                                                  | FMDA-M       | multiple types of fairness simultaneously                                                                            | H    | HFL  | TAB      | PB+STD                      | SV   |
+| [Zhang et al., 2021](https://arxiv.org/abs/2111.04986)                                                  | FMDA-M       | multiple types of fairness simultaneously                                                                            | H    | HFL  | TAB      | PB+STD                      | SV   |
 | [Yang et al., 2022](https://ieeexplore.ieee.org/document/9861177)                                       | FairSCAT     | adversarial learning                                                                                                 | H    | HFL  | IMG      | UC+DIF CO+DIF               | SB   |
 | [Papadaki et al., 2022](https://dl.acm.org/doi/fullHtml/10.1145/3531146.3533081)                        | FedMinMax    | minimax group fairness                                                                                               | H    | HFL  | TAB IMG  | PB-GS PB-AVG                | SV   |
 | [Nafea et al., 2022](https://ieeexplore.ieee.org/document/9834545)                                      | IFFCA        | clustered FL                                                                                                         | H    | HFL  | TAB      | N.A. (unsup. notion)        | SB   |
 | [Amiri et al., 2022](https://ieeexplore.ieee.org/document/9833842)                                      | N.A.         | impact of non-IID data                                                                                               | N.A. | N.A. | TAB      | CO+DIF                      | SB   |
 | [Pentyala et al., 2022](https://arxiv.org/abs/2205.11584)                                               | PrivFairFL   | thresholding; secure multiparty computation and differential privacy                                                 | H    | HFL  | TAB      | UC+DIF CO+DIF               | SB   |
 | [Gu et al., 2022](https://www.sciencedirect.com/science/article/pii/S0167404822003005)                  | N.A.         | trade-off between privacy, accuracy, and group fairness using differential privacy                                   | N.A. | N.A. | TAB      | UC+DIF CO+DIF               | SB   |
-| [Liu and Fan et al, 2022](https://arxiv.org/abs/2109.08344)                                             | FairVFL      | vertical FL                                                                                                          | H    | VFL  | TAB      | CO+DIF                      | SB   |
-| [Hu et al., 2022](https://ieeexplore.ieee.org/document/10516627)                                        | PFFL         | bounded group loss; convergence and fairness guarantees                                                              | H    | HFL  | TAB IMG  | PB+GS CO+GS UC+DIF CO+DIF   | SB   |
-| [Zeng et al., 2022](https://arxiv.org/abs/2110.15545)                                                   | FedFB        | reweighting each subgroup                                                                                            | H    | HFL  | TAB      | UC+DIF                      | SV   |
+| [Liu and Fan et al., 2021](https://arxiv.org/abs/2109.08344)                                            | FairVFL      | vertical FL                                                                                                          | H    | VFL  | TAB      | CO+DIF                      | SB   |
+| [Hu et al., 2024](https://ieeexplore.ieee.org/document/10516627)                                        | PFFL         | bounded group loss; convergence and fairness guarantees                                                              | H    | HFL  | TAB IMG  | PB+GS CO+GS UC+DIF CO+DIF   | SB   |
+| [Zeng et al., 2021](https://arxiv.org/abs/2110.15545)                                                   | FedFB        | reweighting each subgroup                                                                                            | H    | HFL  | TAB      | UC+DIF                      | SV   |
 | [Carey et al., 2022](https://ieeexplore.ieee.org/document/10020554)                                     | FHN          | personalization; fairness heterogeneity                                                                              | H    | HFL  | TAB      | UC+DIF CO+DIF               | SB   |
 | [Touat et al., 2023](https://dl.acm.org/doi/abs/10.1145/3578356.3592576)                                | -            | fairness and robustness                                                                                              | H    | HFL  | TAB      | UC+DIF                      | SB   |
-| [Wang et al., 2023](https://arxiv.org/abs/2305.09931)                                                   | FedGFT       | local and global fairness                                                                                            | H    | HFL  | TAB, IMG | UC+DIF CO+DIF CD+DIF        | SB   |
+| [Wang et al., 2024](https://arxiv.org/abs/2305.09931)                                                   | FedGFT       | local and global fairness                                                                                            | H    | HFL  | TAB, IMG | UC+DIF CO+DIF CD+DIF        | SB   |
 | [Poulain et al., 2023](https://dl.acm.org/doi/10.1145/3593013.3594102)                                  | -            | application: healthcare                                                                                              | H    | HFL  | TAB      | PB+STD CD+STD CD+GS         | SV   |
-| [Hamman et al., 2023](https://arxiv.org/abs/2307.11333)                                                 | N.A.         | local and global fairness trade-off                                                                                  | N.A. | N.A. | TAB      | N.A. (mutual information)   | SB   |
+| [Hamman et al., 2024](https://arxiv.org/abs/2307.11333)                                                 | N.A.         | local and global fairness trade-off                                                                                  | N.A. | N.A. | TAB      | N.A. (mutual information)   | SB   |
 | [Zeng et al., 2023](https://ieeexplore.ieee.org/document/10206590)                                      | LFT          | local fair training                                                                                                  | L    | HFL  | TAB      | UC+DIF                      | SB   |
 | [T. Salazar et al., 2023](https://link.springer.com/chapter/10.1007/978-3-031-35995-8_37)               | FAIR-FATE    | fair aggregation using momentum techniques                                                                           | G    | HFL  | TAB      | UC+RAT CO+RAT               | SB   |
 | [Ezzeldin and Yan et al, 2023](https://dl.acm.org/doi/10.1609/aaai.v37i6.25911)                         | FairFed      | client reweighting                                                                                                   | H    | HFL  | TAB      | CO+DIF                      | SB   |
 | [Benarba et al., 2023](https://hal.science/hal-04394744/)                                               | N.A.         | impact of data size and heterogeneity                                                                                | N.A. | N.A. | TAB      | UC+DIF CO+DIF               | SB   |
 | [Chang et al., 2023](https://arxiv.org/abs/2309.02160)                                                  | N.A.         | analysis of bias propagation                                                                                         | N.A. | N.A. | TAB      | UC+DIF CO+DIF               | SB   |
-| [Selialia et al., 2023](https://dl.acm.org/doi/fullHtml/10.1145/3630106.3658954)                        | MWR          | multiplicative weight update with regularization                                                                     | H    | HFL  | IMG VID  | PB+GS PB+AVG PB+VAR         | SM   |
-| [Yang et al., 2023](https://arxiv.org/abs/2407.19331)                                                   | N.A.         | personalization                                                                                                      | N.A. | N.A. | TAB      | UC+DIF                      | SB   |
+| [Selialia et al., 2024](https://dl.acm.org/doi/fullHtml/10.1145/3630106.3658954)                        | MWR          | multiplicative weight update with regularization                                                                     | H    | HFL  | IMG VID  | PB+GS PB+AVG PB+VAR         | SM   |
+| [Yang et al., 2024](https://arxiv.org/abs/2407.19331)                                                   | N.A.         | personalization                                                                                                      | N.A. | N.A. | TAB      | UC+DIF                      | SB   |
 | [Gao et al., 2023](https://arxiv.org/abs/2309.16338)                                                    | EFFL         | performance distribution fairness and group fairness simultaneously                                                  | H    | HFL  | TAB      | PB+STD CO+STD               | SB   |
 | [Kyllo et al., 2023](https://dl.acm.org/doi/10.1145/3594739.3610678)                                    | N.A.         | impact of clustered on fairness                                                                                      | N.A. | N.A. | TAB      | PB+RAT DI+RAT CO+RAT CD+RAT | SB   |
 | [Liang et al., 2023](https://www.jmir.org/2023/1/e46547)                                                | N.A.         | application: healthcare                                                                                              | N.A. | N.A. | TAB      | UC+RAT CO+DIF               | SB   |
@@ -66,8 +72,8 @@ Please cite as follows:
 | [Han et al., 2024](https://www.sciencedirect.com/science/article/pii/S0950705124000558)                 | FFL-OppoGAN  | opposite generative adversarial networks; group fairness and performance distribution fairness simultaneously        | H    | HFL  | TAB      | UC+DIF                      | SB   |
 | [Dunda et al., 2024](https://www.computer.org/csdl/proceedings-article/cai/2024/540900a563/1Z06H6PSjWE) | FFALM        | constraint optimization; augmented Lagrangian method                                                                 | H    | HFL  | IMG      | UC+DIF CO+DIF               | SB   |
 | [Yin et al., 2024](https://arxiv.org/abs/2402.16158)                                                    | FedFaiREE    | thresholding; distribution-free fair learning                                                                        | H    | HFL  | TAB      | CO+DIF                      | SB   |
-| [T. Salazar et al., 2024](https://www.arxiv.org/abs/2402.07586)                                         | FairFedDrift | group-specific distributed concept drift; clustering                                                                 | H    | HFL  | TAB IMG  | PB+RAT CO+RAT CD+RAT        | SB   |
-| [Wang et al., 2024](https://ieeexplore.ieee.org/document/10337281)                                      | N.A.         | applications: healthcare; impact of personalization                                                                  | N.A. | N.A. | TAB      | UC+DIF CO+DIF               | SV   |
+| [T. Salazar et al., 2025](https://doi.org/10.1109/TNNLS.2025.3601834)                                   | FairFedDrift | group-specific distributed concept drift; clustering                                                                 | H    | HFL  | TAB IMG  | PB+RAT CO+RAT CD+RAT        | SB   |
+| [Wang et al., 2024](https://doi.org/10.1007/s41666-024-00164-7)                                         | N.A.         | applications: healthcare; impact of personalization                                                                  | N.A. | N.A. | TAB      | UC+DIF CO+DIF               | SV   |
 | [Badar et al., 2024](https://ojs.aaai.org/index.php/AAAI/article/view/28971)                            | FairTrade    | trade-off between balanced accuracy and fairness; multi-objective optimization                                       | H    | HFL  | TAB      | UC+DIF                      | SB   |
 | [Su et al., 2024](https://ojs.aaai.org/index.php/AAAI/article/view/29430)                               | mFairFL      | group fairness and performance distribution fairness simultaneously; minimax constraint; gradient conflict detection | H    | HFL  | TAB      | PB+DIF UC+DIF CO+DIF        | SV   |
 | [Chen et al., 2024](https://www.sciencedirect.com/science/article/pii/S0167739X24003406)                | DFLT; PGFD   | local and global fairness; privacy constraints                                                                       | H    | HFL  | TAB      | UC+DIF CO+DIF               | SB   |
